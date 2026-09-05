@@ -20,4 +20,7 @@ return {
     }
     return opts
   end,
+  keys = {
+    { "<leader>cM", "<cmd>RustLsp expandMacro<cr>", desc = "Expand Macro", ft = "rust" },
+  },
 }
