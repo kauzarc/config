@@ -1,1 +1,1 @@
-vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit Terminal Mode" })
+vim.keymap.set("t", "<C-q>", "<C-\\><C-n>", { desc = "Exit Terminal Mode" })
